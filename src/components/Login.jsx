@@ -17,6 +17,7 @@ const Login = () => {
       const message = checkValidateData(
         email.current.value,
         password.current.value,
+        Name.current.value
        
       ) 
       Seterrormessage(message)
